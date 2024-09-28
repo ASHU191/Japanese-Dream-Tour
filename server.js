@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const config = require("./config/db.js");
-require("dotenv").config();
+require("dotenv").config();   
 
 // Import routes
 const userRoutes = require("./routes/userRoutes");
