@@ -5,4 +5,4 @@ const MapSchema = new mongoose.Schema({
   coordinates: { type: String, required: true }
 });
 
-module.exports = mongoose.model('Map', MapSchema);
+module.exports = mongoose.model('Map', MapSchema);    
