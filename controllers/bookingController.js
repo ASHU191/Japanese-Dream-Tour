@@ -9,7 +9,7 @@ exports.createBooking = async (req, res) => {
     res.status(201).json(newBooking);
   } catch (err) {
     res.status(500).json({ msg: "Server Error" });
-  }
+  }                                             
 };
 
 // Get all bookings
